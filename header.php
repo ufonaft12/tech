@@ -38,36 +38,23 @@ function get_header($page_type) { ?>
 					</a>
 					<div class="col-logo col-right col-table">
 						<a class="vertical-center" href="/" alt="">
-							<img src="/img/logo.png" alt="" title="">
+							<img src="../img/logo.png" alt="" title="">
 						</a>
 					</div>
 					<div id="menu" class="col-menu col-right">
 						<ul id="menu-header" class="menu-header">
-							<li class="menu-item menu-item-has-children">
-								<a href="#">השכרת אוהלים</a>
-								<ul class="sub-menu">
-									<li class="menu-item">
-										<a href="#">צור קשר</a>
-									</li>
-									<li class="menu-item">
-										<a href="#">צור קשר</a>
-									</li>
-									<li class="menu-item">
-										<a href="#">צור קשר</a>
-									</li>
-									<li class="menu-item">
-										<a href="#">צור קשר</a>
-									</li>
-								</ul>
+							<li class="menu-itme"><a href="#">הסיפור_שלנו</a></li>
+							<li class="menu-item">
+								<a href="#">מוצרים</a>
 							</li>
 							<li class="menu-item">
-								<a href="#">השכרת ציוד לאירועים</a>
+								<a href="#">פרוייקטים</a>
 							</li>
 							<li class="menu-item">
-								<a href="#">אזורי שירות</a>
+								<a href="#">בלוג</a>
 							</li>
 							<li class="menu-item ">
-								<a href="#">צור קשר</a>
+								<a href="#">צור_קשר</a>
 							</li>
 						</ul>
 					</div>
