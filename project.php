@@ -8,20 +8,20 @@ get_header("front-page"); ?>
 	<article>
 		<h1></h1>
 		<div class="row share">
-			<div class="col-md-6">
-				<ul>
-					<li><a href="#"><img src="../img/icon-fb.png" alt=""></a></li>
-					<li><a href="#"><img src="../img/icon-mail.png" alt=""></a></li>
-					<li><a href="#"><img src="../img/icongoogle.png" alt=""></a></li>
-					<li><a href="#"><img src="../img/iconviber.png" alt=""></a></li>
-				</ul>
-			</div>
-			<div class="col-md-6">
+			<div class="col-md-6" style="text-align: right;">
 				<ul class="list-date">
 					<li>ראשון לציון</li>
 					<li>27.02.18</li>
 				</ul>
 			</div>
+			<div class="col-md-6">
+				<ul class="share-list">
+					<li><a href="#"><img src="../img/icon-fb.png" alt=""></a></li>
+					<li><a href="#"><img src="../img/icon-mail.png" alt=""></a></li>
+					<li><a href="#"><img src="../img/icongoogle.png" alt=""></a></li>
+					<li><a href="#"><img src="../img/iconviber.png" alt=""></a></li>
+				</ul>
+			</div>			
 		</div>
 		<h4>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח. לת צשחמי קולהע צופעט למרקוח איב</h4>
 		<p>

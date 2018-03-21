@@ -1,4 +1,4 @@
-<?php include 'header.php';
+<?php include 'header-home.php';
 get_header("front-page"); ?>
 <section class="container-fluid">
 	<div class="row">

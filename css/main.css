@@ -1,5 +1,7 @@
 /* main */
-
+body {
+	font-family:OpenSansHebrew, sans-serif;
+}
 .col-right {
 	float: right;
 }
@@ -24,7 +26,7 @@
 }
 
 p,a,btn,h1,h2,h3,h4,h5,h6 {
-	font-family: 'almoni-dl', sans-serif;
+	font-family:OpenSansHebrew, sans-serif;
 	text-align: right;
 }
 
@@ -145,7 +147,7 @@ header .col-menu ul li {
 
 header .col-menu ul li a {
 	font-size: 18px;
-	color: #44474c;
+	color: #fff;
 	padding: 0 35px;
 	height: 100%;
 	display: table-cell;
@@ -369,6 +371,14 @@ header .col-info {
 	}
 }
 
+#top-menu {
+	list-style: none;
+}
+#top-menu li {
+	color: #fff;
+	float: left;
+}
+
 /* exit header */
 
 /*		Front page	*/
@@ -389,6 +399,32 @@ header .col-info {
 }
 .contacts {
 	background: url('../img/contacts.png');
+}
+
+
+/*
+	Projects
+*/
+
+
+.list-date {
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+.list-date li {
+	float: left;
+}
+.share-list {
+	display: inline-block;
+	margin: 0;
+	padding: 0;	
+}
+.share-list li {
+	float: left;
+	list-style: none;	
+	margin-right: 6px;
 }
 
 /* footer */

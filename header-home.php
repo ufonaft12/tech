@@ -30,16 +30,6 @@ function get_header($page_type) { ?>
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<div class="col-left">
-					<ul id="top-menu">																	
-						<li>שלום, אייל</li>
-						<li>הפרוייקטים שלי</li>
-						<li>ייעוץ  עם מומחה</li>
-						<li>03-556-8433</li>
-					</ul>
-					</div>
-				</div>
 				<div class="col-md-12 content">
 					<a class="mobile-menu-btn" href="#menu">
 						<span></span>
@@ -65,9 +55,6 @@ function get_header($page_type) { ?>
 							</li>
 							<li class="menu-item ">
 								<a href="#">צור_קשר</a>
-							</li>
-							<li>
-								<a href="#"></a>
 							</li>
 						</ul>
 					</div>
