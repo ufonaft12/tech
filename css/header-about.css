@@ -1,0 +1,134 @@
+#topline{
+    background: #0e162a;
+    padding: 15px 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index : 100;
+    width: 100%;
+}
+
+.topline-item{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 16px;
+    padding: 0 15px;
+    margin-left: 5px;
+    border-left: 1px solid #414757;
+}
+
+.topline-item:nth-child(2){
+    color: #00a2fd;
+}
+
+.topline-item img{
+    margin-left: 15px;
+}
+
+#navigation{
+    width: 100%;
+    position: fixed;
+    top: 54px;
+    left: 0;
+    z-index : 100;
+    padding: 20px 42px;
+    background: transparent;
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navigation a{
+    color: white;
+
+}
+
+.nav-item{
+    margin-right: 110px;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+}
+
+#mobile-hamburger{
+    display: none;
+}
+
+#mobile-menu{
+    display: none;
+}
+
+@media screen and (max-width: 1400px){
+    .nav-item{
+        margin-right: 45px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #mobile-menu{
+        display: flex;
+        align-items: flex-start;
+        width: auto;
+        height: 90vh;
+        position: fixed;
+        top: 77px;
+        right: -100%;
+        background: rgba(0,0,0,0.9);
+        padding: 15px 25px;
+        z-index: 100;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #mobile-menu.open{
+        right: 0;
+    }
+
+    #mobile-menu a{
+        color: white;
+    }
+
+    #mobile-menu img{
+        margin-right: 15px;
+    }
+
+    #mobile-hamburger{
+        width: 100%;
+        display: flex;
+        position: fixed;
+        top: 0;
+        padding: 15px 20px;
+        background: #0e162a;
+        z-index: 999;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #mobile-opener{
+        color: white;
+        font-size: 32px;
+    }
+
+    #topline{
+        display: none;
+    }
+
+    #navigation{
+        display: none;
+    }
+}
+
+#navigation.background{
+    
+}
