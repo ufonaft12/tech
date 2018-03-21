@@ -1,9 +1,29 @@
 <?php include 'header.php';
 get_header("front-page"); ?>
 
-<section class="p-slider container-fluid">
-	
-</section>
+<section class="banner container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="gallery-slider owl-carousel">
+					
+					<!-- slide 1-->
+					<div>
+						<img src="img/project-slider.jpg" alt="">
+					</div>
+					
+					<!-- slide 2-->
+					<div>
+						<img src="img/project-slider.jpg" alt="">
+					</div>
+					
+					<!-- slide 3-->
+					<div>
+						<img src="img/project-slider.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 <section class="post container">
 	<article>

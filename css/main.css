@@ -529,6 +529,7 @@ header .col-info {
 	display: inline-block;
 	width: 175px;
 	line-height: 45px;
+	text-decoration: none;
 }
 .post-next span, .post-prev  span {
 	font-size: 9px;

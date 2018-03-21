@@ -31,4 +31,23 @@ jQuery(document).ready(function($){
 			$('body').toggleClass('menu-active');
 		});
 	}
+
+	    $('.gallery-slider').owlCarousel({
+            loop:true,
+            nav:true,
+            navText:['<span class="lnr lnr-chevron-left"></span>','<span class="lnr lnr-chevron-right"></span>'],
+            dots:true,
+            responsive:{
+                0:{
+                    items:1,           
+                },
+                600:{
+                    items:1,
+                },
+                900:{
+                    items:1,
+                }
+            }
+    });
+	    
 });
