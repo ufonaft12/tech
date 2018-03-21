@@ -45,6 +45,7 @@ get_header("front-page"); ?>
                     </span>
                 </div>
             </div>
+
             <div class="col-md-12">
                 <div class="blog-head">
                     <div class="blog-head_item">
@@ -58,6 +59,70 @@ get_header("front-page"); ?>
                                 <span></span>
                             </button>
                         </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="two-central-img">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="central-img_item">
+                                <div class="central-img" style="background-image: url('img/article_1.jpg')">
+                                    <div class="central-img_btn">
+                                        <a href=""></a>
+                                    </div>
+                                    <ul class="central-img_btn-soc">
+                                        <li class="btn-fb"><a href="#"></a></li>
+                                        <li class="btn-viber"><a href="#"></a></li>
+                                        <li class="btn-google"><a href="#"></a></li>
+                                        <li class="btn-mail"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="central-img_content">
+                                    <div class="breadcrumbs">
+                                        <span itemprop="itemListElement">
+                                            <a href="" itemprop="item" class="home">
+                                                <span itemprop="name">אייל רחמים</span>
+                                            </a>
+                                        </span>
+                                        <span class="sep">|</span>
+                                        <span class="current">18.02.22</span>
+                                    </div>
+                                    <p>כותרת ראשית של מאמר לורם יפסום</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="central-img_item">
+                                <div class="central-img" style="background-image: url('img/article_2.jpg')">
+                                    <div class="central-img_btn">
+                                        <a href=""></a>
+                                    </div>
+                                    <ul class="central-img_btn-soc">
+                                        <li class="btn-fb"><a href="#"></a></li>
+                                        <li class="btn-viber"><a href="#"></a></li>
+                                        <li class="btn-google"><a href="#"></a></li>
+                                        <li class="btn-mail"><a href="#"></a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="central-img_content">
+                                    <div class="breadcrumbs">
+                                        <span itemprop="itemListElement">
+                                            <a href="" itemprop="item" class="home">
+                                                <span itemprop="name">אייל רחמים</span>
+                                            </a>
+                                        </span>
+                                        <span class="sep">|</span>
+                                        <span class="current">18.02.22</span>
+                                    </div>
+                                    <p>כותרת ראשית של מאמר לורם יפסום</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
