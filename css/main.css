@@ -400,16 +400,29 @@ header .col-info {
 }
 
 /* exit header */
-
-
+.page-content article {
+	padding-bottom: 40px;
+}
+.post {
+	width: 1040px;
+}
 .breadcrumbs{
 	margin: 12px 0 27px;
 	text-align: right;
 }
-
+.post a {
+	color: #00a2fd;
+	text-decoration: underline;	
+}
+.post a:hover {
+	text-decoration: none;
+}
 .title-box {
 	font-size: 45px;
 	margin: 0 0 37px 0;
+}
+.share {
+	margin-bottom: 35px;
 }
 
 /*		Front page	*/
@@ -482,6 +495,65 @@ header .col-info {
 }
 .projects-item_title {
 	text-align: right;
+}
+
+.miniproject-list {
+	width: 100%;
+	margin: 5px 0 40px;
+}
+.miniproject-list td {
+	padding: 10px 0;
+	border-bottom: 1px solid #d7d7d7;
+	border-top: 1px solid #d7d7d7;
+}
+.miniproject-list td:first-child {
+	width: 76px;
+	text-align: right;
+	padding-left: 20px;
+}
+.miniproject-list ul {
+	list-style: none;
+}
+.miniproject-list ul li {
+	float: right;
+	border-left: 1px solid #72757a;
+	color: #72757a;
+	font-size: 12px;
+	padding: 0 7px;
+}
+.post-next, .post-prev {
+	border: 1px solid #11a8fd;
+	height: 50px;
+	font-size: 17px;
+	color: #11a8fd;
+	display: inline-block;
+	width: 175px;
+	line-height: 45px;
+}
+.post-next span, .post-prev  span {
+	font-size: 9px;
+}
+.post-next span {
+	float: left;
+	margin-top: 19px;
+}
+.post-prev  span {
+	float: right;
+	margin-top: 19px;
+	margin-left: 5px;
+}
+.post-next {
+	padding: 0 30px 0 40px;
+}
+.post-prev {
+	padding: 0 40px 0 30px;
+}
+.miniproject-list_price {
+	font-size: 14px;
+}
+.blue-text {
+	font-weight: bold;
+	color: #00a2fd;		
 }
 
 /* footer */
