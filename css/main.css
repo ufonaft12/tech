@@ -65,7 +65,7 @@ section, div {
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 1604px;
 }
 
 input::-webkit-input-placeholder {
@@ -117,7 +117,9 @@ header > .container,
 header > .container > .row {
 	height: 100%;
 }
-
+header .row {
+	padding: 0 70px;
+}
 header .col-logo {
 	
 }
@@ -377,9 +379,38 @@ header .col-info {
 #top-menu li {
 	color: #fff;
 	float: left;
+	border-left: 1px solid #3d3f4a;
+	padding: 0 16px;
+}
+#top-menu li a {
+	color: #fff;
+	text-decoration: none;
+}
+#top-menu li a:hover {
+	text-decoration: none;
+}
+#top-menu li::after {
+    content: "\e874";
+    position: absolute;
+    font-family: 'Linearicons-Free';
+    font-size: 8px;
+    top: 8px;
+    left: 6px;
+    cursor: pointer;
 }
 
 /* exit header */
+
+
+.breadcrumbs{
+	margin: 12px 0 27px;
+	text-align: right;
+}
+
+.title-box {
+	font-size: 45px;
+	margin: 0 0 37px 0;
+}
 
 /*		Front page	*/
 .link-blue {
@@ -406,15 +437,38 @@ header .col-info {
 	Projects
 */
 
-
+.projects-item_title {
+	margin: 17px 0 0 0;
+}
+.projects-item  p {
+	display: inline-block;
+	margin-bottom: 30px;
+	font-size: 15px;
+}
 .list-date {
+	float: left;
 	list-style: none;
 	display: inline-block;
-	margin: 0;
+	margin: 5px 0 0 0;
 	padding: 0;
 }
+.post .list-date {
+	float: right;
+}	
 .list-date li {
 	float: left;
+	padding: 0 6px;
+	font-size: 14px;
+}
+.list-date li span {
+	display: block;
+	float: right;
+	padding-left: 10px;
+	margin-top: 3px;
+	color: #11a8fd;
+}
+.projects-item_title h3 {
+	font-size: 26px;
 }
 .share-list {
 	display: inline-block;
@@ -425,6 +479,9 @@ header .col-info {
 	float: left;
 	list-style: none;	
 	margin-right: 6px;
+}
+.projects-item_title {
+	text-align: right;
 }
 
 /* footer */

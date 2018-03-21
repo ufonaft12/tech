@@ -4,15 +4,27 @@ get_header("front-page"); ?>
 <section class="p-slider container-fluid">
 	
 </section>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="pull-right">
+				<h2 class="title-box">פרוייקט וילה מארה</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
 <section class="post container">
 	<article>
 		<h1></h1>
 		<div class="row share">
-			<div class="col-md-6" style="text-align: right;">
-				<ul class="list-date">
-					<li>ראשון לציון</li>
-					<li>27.02.18</li>
-				</ul>
+			<div class="col-md-6">
+						<ul class="list-date">
+							<li><span class="lnr lnr-map-marker"></span> ראשון לציון</li>
+							<li><span class="lnr lnr-calendar-full"></span> 27.02.18</li>
+						</ul>						
 			</div>
 			<div class="col-md-6">
 				<ul class="share-list">

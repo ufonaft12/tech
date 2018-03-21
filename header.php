@@ -28,15 +28,15 @@ function get_header($page_type) { ?>
 </head>
 <body class="rtl<?php echo ' '.$page_type; ?>">
 	<header>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="col-left">
 					<ul id="top-menu">																	
-						<li>שלום, אייל</li>
-						<li>הפרוייקטים שלי</li>
-						<li>ייעוץ  עם מומחה</li>
-						<li>03-556-8433</li>
+						<li><a href="#"><span class="lnr lnr-user"></span> שלום, אייל</a></li>
+						<li><a href="#"><span class="lnr lnr-pencil"></span> הפרוייקטים שלי</a></li>
+						<li><a href="#"><span class="lnr lnr-question-circle"></span> ייעוץ  עם מומחה</a></li>
+						<li><a href="tel:03-556-8433"><span class="lnr lnr-phone-handset"></span> 03-556-8433</a></li>
 					</ul>
 					</div>
 				</div>
@@ -67,7 +67,7 @@ function get_header($page_type) { ?>
 								<a href="#">צור_קשר</a>
 							</li>
 							<li>
-								<a href="#"></a>
+								<a href="#"><img src="img/head-search.png" alt=""></a>
 							</li>
 						</ul>
 					</div>
