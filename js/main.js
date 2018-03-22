@@ -36,7 +36,8 @@ jQuery(document).ready(function($){
             loop:true,
             nav:true,
             navText:['<span class="lnr lnr-chevron-left"></span>','<span class="lnr lnr-chevron-right"></span>'],
-            dots:true,
+            dots:false,
+            margin: 15,
             responsive:{
                 0:{
                     items:1,           
@@ -49,5 +50,5 @@ jQuery(document).ready(function($){
                 }
             }
     });
-	    
+
 });

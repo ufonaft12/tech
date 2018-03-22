@@ -7,23 +7,37 @@ get_header("front-page"); ?>
 				<div class="gallery-slider owl-carousel">
 					
 					<!-- slide 1-->
-					<div>
-						<img src="img/project-slider.jpg" alt="">
+					<div style="background: url(img/project-slider.png) no-repeat;">
+						
 					</div>
 					
 					<!-- slide 2-->
-					<div>
-						<img src="img/project-slider.jpg" alt="">
+					<div style="background: url(img/project-slider.png) no-repeat;">
+						
 					</div>
 					
 					<!-- slide 3-->
-					<div>
-						<img src="img/project-slider.jpg" alt="">
+					<div style="background: url(img/project-slider.png) no-repeat;">
+						
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+
+
+			<div class="breadcrumbs"  style="position:absolute;top: 130px;color: #fff;z-index: 999; right:40px;">
+				<span itemprop="itemListElement">
+					<a href="" itemprop="item" class="home" style="color:#fff;">
+						<span itemprop="name" style="color:#fff;">עמוד הבית</span>
+					</a>
+				</span> 
+				<span class="sep" style="color:#fff;">/</span>
+				<span class="current" style="color:#fff;">תאורה</span>
+			</div>	
+
+
+
 
 <section class="post container">
 	<article>
