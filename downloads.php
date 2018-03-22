@@ -19,6 +19,7 @@ get_header("front-page"); ?>
                 <div class="download-item-head">
                     <h1>הורדות</h1>
                 </div>
+
                 <div class="download-item-wrap">
                     <div class="row">
                         <div class="col-md-3">
