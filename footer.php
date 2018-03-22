@@ -1,3 +1,4 @@
+</div>
 <footer class="main-footer">
     <div class="footer-top_line">
         <div class="container">
@@ -111,3 +112,8 @@
         </div>
     </div>
 </footer>
+
+<link rel='stylesheet' id='main-style-css'  href='/css/footer.min.css' type='text/css' media='all' />
+</body>
+
+</html>
