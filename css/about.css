@@ -5,7 +5,9 @@
 
 body{
     text-align: right !important;
+    direction: rtl;
 }
+
 
 #banner_main{
     background: url('/img/banner_main.jpg');
@@ -151,6 +153,11 @@ body{
     padding: 25px 10px;
 }
 
+#topline.background,
+#mobile-hamburger.background{
+    background: #090d19;
+}
+
 .works-item a{
     margin-top: 35px;
     color: #00a2fd;
@@ -205,6 +212,15 @@ body{
         flex-direction: column-reverse;
     }
 
+    .mobile-logo{
+        margin-left: auto;
+        margin-right: 15px;
+    }
+
+    .mobile-logo img{
+        height: 35px;
+    }
+
     .works-item,
     .image-item{
         margin: 15px 0;
@@ -216,19 +232,44 @@ body{
     #banner_main,
     #people{
         height: auto !important;
-        padding: 80px 0;
+        padding: 40px 0;
         text-align: center;
     }
 
+    #banner_main{
+        padding-top: 80px;
+    }
+
+
+
     .about-pic-href{
-        font-size: 13px;
+        font-size: 18px;
     }
 
     .about-pic-desc{
-        font-size: 12px;
+        font-size: 17px;
     }
+
+
 
     .about-pic-title{
         font-size: 35px;
+    }
+
+    .parallax-title{
+        font-size: 35px;
+    }
+
+    .works-title{
+        font-size: 35px;
+    }
+
+    .image-item img{
+        width: auto !important;
+        height: 47px !important;
+    }
+
+    .image-item{
+        flex: auto !important;
     }
 }
