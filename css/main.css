@@ -572,7 +572,11 @@ header #menu {
 	text-decoration: none !important;
 }
 .post-next:hover, .post-prev:hover {
-	text-decoration: underline !important;
+	background: #11a8fd;
+	color: #fff;
+}
+.post-next:hover span, .post-prev:hover span, .post-next:hover, .post-prev:hover {
+	color: #fff !important;
 }
 .post-prev {
 	padding: 0 40px 0 30px;
