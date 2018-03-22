@@ -1,5 +1,4 @@
 <?php require_once ('header-about.php'); ?>
-
 <link href = "css/about.css" rel = "stylesheet">
 
 <div class = "container-fluid back" id = "banner_main">
