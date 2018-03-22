@@ -3,7 +3,7 @@ get_header("front-page"); ?>
 
 <section class="banner container-fluid">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="">
 				<div class="gallery-slider owl-carousel">
 					
 					<!-- slide 1-->
@@ -26,14 +26,16 @@ get_header("front-page"); ?>
 	</section>
 
 
-			<div class="breadcrumbs"  style="position:absolute;top: 130px;color: #fff;z-index: 999; right:40px;">
+			<div class="breadcrumbs"  style="position:absolute;top: 120px;color: #fff;z-index: 1; right:160px;">
 				<span itemprop="itemListElement">
 					<a href="" itemprop="item" class="home" style="color:#fff;">
-						<span itemprop="name" style="color:#fff;">עמוד הבית</span>
+						<span itemprop="name" style="color:#fff;">בית</span>
 					</a>
 				</span> 
 				<span class="sep" style="color:#fff;">/</span>
-				<span class="current" style="color:#fff;">תאורה</span>
+				<span class="current" style="color:#fff;">פרויקטים</span>
+				<span class="sep" style="color:#fff;">/</span>
+				<span class="current" style="color:#fff;">פרוייקט וילה מארה</span>
 			</div>	
 
 
@@ -55,6 +57,7 @@ get_header("front-page"); ?>
 					<li><a href="#"><img src="../img/icon-mail.png" alt=""></a></li>
 					<li><a href="#"><img src="../img/icongoogle.png" alt=""></a></li>
 					<li><a href="#"><img src="../img/iconviber.png" alt=""></a></li>
+					<li><span style="font-size: 17px; margin-left: 15px;">שתף עמוד:</span></li>
 				</ul>
 			</div>			
 		</div>
