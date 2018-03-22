@@ -3,22 +3,22 @@ get_header("front-page"); ?>
 
 <section class="banner container-fluid">
 		<div class="row">
-			<div class="">
+			<div class="col-md-12" style="padding: 0;">
 				<div class="gallery-slider owl-carousel">
 					
 					<!-- slide 1-->
-					<div style="background: url(img/project-slider.png) no-repeat;">
-						
+					<div>
+						<img src="img/project-slider.png" alt="">
 					</div>
 					
 					<!-- slide 2-->
-					<div style="background: url(img/project-slider.png) no-repeat;">
-						
+					<div>
+						<img src="img/project-slider.png" alt="">
 					</div>
 					
 					<!-- slide 3-->
-					<div style="background: url(img/project-slider.png) no-repeat;">
-						
+					<div>
+						<img src="img/project-slider.png" alt="">
 					</div>
 				</div>
 			</div>

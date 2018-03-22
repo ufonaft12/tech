@@ -571,6 +571,9 @@ header #menu {
 	padding: 0 30px 0 40px;
 	text-decoration: none !important;
 }
+.post-next:hover, .post-prev:hover {
+	text-decoration: underline !important;
+}
 .post-prev {
 	padding: 0 40px 0 30px;
 	text-decoration: none !important;
@@ -623,11 +626,18 @@ header #menu {
 .gallery-slider {
 	margin-bottom: 40px;
 }
-.gallery-slider div {
+/*.gallery-slider div {
 	width:1900px;
 	height:436px;
+}*/
+.gallery-slider div img {
+	width: 100%;
 }
-
+/*@media screen and (max-width: 1769px) {
+	.gallery-slider div {
+		width: 100%;
+	}
+}*/
 
 
 /* footer */
