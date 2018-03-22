@@ -114,6 +114,7 @@
 </footer>
 
 <link rel='stylesheet' id='main-style-css'  href='/css/footer.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='main-style-css'  href='/css/fontello.css' type='text/css' media='all' />
 </body>
 
 </html>
