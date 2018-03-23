@@ -1,4 +1,4 @@
-<meta charset="UTF-8">
+<html><head><meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<meta name='robots' content='noindex,follow' />
@@ -17,7 +17,7 @@
 	<script type='text/javascript' src='/js/jquery-migrate.min.js?ver=1.4.1'></script>
 	<script type='text/javascript' src='/js/bootstrap.min.js?ver=4.0.0'></script>
 	<script type='text/javascript' src='/js/main.js'></script>
-<link rel = "stylesheet" href = "css/header-about.css">
+<link rel = "stylesheet" href = "css/header-about.css"></head><body>
 <div id = "topline">
 
     <div style = "margin-left: 15px; transform: translate(0, -5px);" id = "desctop-opener">
