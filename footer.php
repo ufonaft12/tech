@@ -3,7 +3,7 @@
     <div class="footer-top_line">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="footer-column column-logo">
                         <img src="img/Technolite_footer.png" alt="logo" class="logo-footer">
                         <h3>הרשמה לניוזלטר</h3>
@@ -22,10 +22,16 @@
                                 </ul>
                             </nav>
                         </div>
+
+                        <ul class="mobile-visible">
+                            <li><a href="" target="_blank">תאורת פנים</a></li>
+                            <li><a href="" target="_blank">תאורת פנים</a></li>
+                            <li><a href="" target="_blank">תאורת פנים</a></li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-2 col-sm-6 d-none d-sm-block">
                     <div class="footer-column column-contacts">
                         <a href="#" class="link-title">דרכי התקשרות</a>
                         <div class="bottom-link_wrap">
@@ -38,7 +44,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-2 col-sm-6 d-none d-sm-block">
                     <div class="footer-column">
                         <a href="#" class="link-title">הורדות</a>
                         <div class="bottom-link_wrap">
@@ -54,7 +60,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-2 col-sm-6 d-none d-sm-block">
                     <div class="footer-column">
                         <a href="#" class="link-title">הורדות</a>
                         <div class="bottom-link_wrap">
@@ -67,7 +73,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-2 col-sm-6 d-none d-sm-block">
                     <div class="footer-column">
                         <a href="#" class="link-title">הורדות</a>
                         <div class="bottom-link_wrap">
@@ -86,11 +92,12 @@
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <div class="footer-column">
+                        <img src="img/Technolite_footer.png" alt="footer logo" class="logo-bottom">
                         <p> © 2018  כל הזכויות שמורות לחברת טכנולייט</p>
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 d-none d-sm-block">
                     <div class="footer-column">
                         <ul>
                             <li><a href="" target="_blank">תאורת פנים</a></li>
