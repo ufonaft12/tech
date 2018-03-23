@@ -16,9 +16,9 @@
                         <div class="footer-social">
                             <nav class="soc">
                                 <ul>
-                                    <li><a href=""><i class="icon-facebook"></i></a></li>
-                                    <li><a href=""><i class="icon-linkedin"></i></a></li>
-                                    <li><a href=""><i class="icon-twitter"></i></a></li>
+                                    <li><a href=""><i class="icon icon-facebook"></i></a></li>
+                                    <li><a href=""><i class="icon icon-linkedin"></i></a></li>
+                                    <li><a href=""><i class="icon icon-twitter"></i></a></li>
                                 </ul>
                             </nav>
                         </div>
