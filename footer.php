@@ -93,9 +93,9 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="footer-column">
                         <ul>
-                            <li><a href="">תאורת פנים</a></li>
-                            <li><a href="">תאורת פנים</a></li>
-                            <li><a href="">תאורת פנים</a></li>
+                            <li><a href="" target="_blank">תאורת פנים</a></li>
+                            <li><a href="" target="_blank">תאורת פנים</a></li>
+                            <li><a href="" target="_blank">תאורת פנים</a></li>
                         </ul>
                     </div>
                 </div>
