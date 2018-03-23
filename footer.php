@@ -10,7 +10,7 @@
 
                         <form action="" class="footer-form">
                             <input type="text" name="textForm" placeholder="דוא”ל">
-                            <button type="submit" name="submit" class="btn-form"></button>
+                            <button type="submit" name="submit" class="footer_btn-form"></button>
                         </form>
 
                         <div class="footer-social">

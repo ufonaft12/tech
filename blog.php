@@ -1,5 +1,6 @@
 <?php include 'header.php';
 get_header("front-page"); ?>
+
 </div>
 <section class="section-blog">
     <div class="test"></div>
