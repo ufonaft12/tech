@@ -90,7 +90,7 @@
     <div class="footer-bottom_line">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 col-8">
                     <div class="footer-column">
                         <img src="img/Technolite_footer.png" alt="footer logo" class="logo-bottom">
                         <p> © 2018  כל הזכויות שמורות לחברת טכנולייט</p>
@@ -107,12 +107,19 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
-                    <div class="footer-column">
-                        <a href="#" target="_blank">
-                            <span>קידום אתרים בגוגל</span>
-                        </a>
-                        <img src="img/digi_logo.png" alt="Digi" class="logo-bottom_line">
+                <div class="col-md-4 col-sm-6 col-4">
+                    <div class="footer-column column-center_wrap">
+                        <div class="column-center">
+                            <a href="#" target="_blank" class="hidden-xs">
+                                <span>קידום אתרים בגוגל</span>
+                            </a>
+
+                            <img src="img/digi_logo.png" alt="Digi" class="logo-bottom_line">
+
+                            <a href="#" target="_blank" class="hidden-md">
+                                <span>קידום אתרים בגוגל</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
