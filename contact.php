@@ -1,5 +1,5 @@
-<?php include 'header.php';
-get_header("front-page"); ?>
+<?php require_once ('header-about.php'); ?>
+<link href = "css/about.css" rel = "stylesheet">
 
 </div>
 
@@ -131,7 +131,7 @@ function initMap() {
 
 <link rel='stylesheet' id='main-style-css'  href='/css/contact.min.css' type='text/css' media='all' />
 
-<?php include 'footer.php'; ?>
+<?php require_once ('footer.php')?>
 </body>
 
 </html>
