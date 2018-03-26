@@ -8,10 +8,24 @@
                         <img src="img/Technolite_footer.png" alt="logo" class="logo-footer">
                         <h3>הרשמה לניוזלטר</h3>
 
-                        <form action="" class="footer-form">
-                            <input type="text" name="textForm" placeholder="דוא”ל">
-                            <button type="submit" name="submit" class="footer_btn-form"></button>
-                        </form>
+                        <div role="form" class="wpcf7 footer-form" id="wpcf7-f205-o1" dir="ltr" lang="en-US">
+                            <form action="#wpcf7" method="post" class="wpcf7-form" novalidate="novalidate">
+                                <p class="input-submit_wrap">
+                                    <label class="submit">
+                                        <input value="" class="wpcf7-form-control wpcf7-submit footer_btn-form" type="submit">
+                                        <span class="ajax-loader"></span>
+                                    </label>
+                                </p>
+
+                                <p>
+                                    <span class="wpcf7-form-control-wrap your-email">
+                                        <input name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-email" aria-invalid="false" placeholder="דוא”ל" type="email">
+                                    </span>
+                                </p>
+
+                                <div class="wpcf7-response-output wpcf7-display-none"></div>
+                            </form>
+                        </div>
 
                         <div class="footer-social">
                             <nav class="soc">
@@ -48,14 +62,16 @@
                     <div class="footer-column">
                         <a href="#" class="link-title">הורדות</a>
                         <div class="bottom-link_wrap">
-                            <ul>
-                                <li><a href="">תאורת פנים</a></li>
-                                <li><a href="">תאורת פנים</a></li>
-                                <li><a href="">תאורת פנים</a></li>
-                                <li><a href="">תאורת פנים</a></li>
-                                <li><a href="">תאורת פנים</a></li>
-                                <li><a href="">תאורת פנים</a></li>
-                            </ul>
+                            <nav>
+                                <ul>
+                                    <li><a href="">תאורת פנים</a></li>
+                                    <li><a href="">תאורת פנים</a></li>
+                                    <li><a href="">תאורת פנים</a></li>
+                                    <li><a href="">תאורת פנים</a></li>
+                                    <li><a href="">תאורת פנים</a></li>
+                                    <li><a href="">תאורת פנים</a></li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
                 </div>
@@ -64,11 +80,13 @@
                     <div class="footer-column">
                         <a href="#" class="link-title">הורדות</a>
                         <div class="bottom-link_wrap">
-                            <ul>
-                                <li><a href="">תאורת פנים</a></li>
-                                <li><a href="">תאורת פנים</a></li>
-                                <li><a href="">תאורת פנים</a></li>
-                            </ul>
+                            <nav>
+                                <ul>
+                                    <li><a href="">תאורת פנים</a></li>
+                                    <li><a href="">תאורת פנים</a></li>
+                                    <li><a href="">תאורת פנים</a></li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
                 </div>
