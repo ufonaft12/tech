@@ -17,7 +17,7 @@
                                     </label>
                                 </p>
 
-                                <p>
+                                <p class="input-email_wrap">
                                     <span class="wpcf7-form-control-wrap your-email">
                                         <input name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-email" aria-invalid="false" placeholder="דוא”ל" type="email">
                                     </span>

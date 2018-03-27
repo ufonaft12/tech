@@ -10,7 +10,7 @@ function get_header($page_type) { ?>
 	<link rel='dns-prefetch' href='//s.w.org' />
 	<link rel='stylesheet' id='wp-css'  href='/wp/css/wp.css?ver=4.9.4' type='text/css' media='all' />
 	<link rel='stylesheet' id='bootstrap4-css'  href='/css/bootstrap.min.css?ver=4.0.0' type='text/css' media='all' />
-	<link rel='stylesheet' id='fontawesome-css'  href='/css/fontawesome-all.min.css?ver=5.0.7' type='text/css' media='all' />
+<!--	<link rel='stylesheet' id='fontawesome-css'  href='/css/fontawesome-all.min.css?ver=5.0.7' type='text/css' media='all' />-->
 	<link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 	<link rel='stylesheet' id='linearicons-css'  href='/css/linearicons-free.min.css?ver=1.0.0' type='text/css' media='all' />
 	

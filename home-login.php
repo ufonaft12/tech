@@ -111,7 +111,7 @@
 
 <link rel='stylesheet' id='main-style-css'  href='/css/home-login.min.css' type='text/css' media='all' />
 
-<?php require_once ('footer.php')?>
+<?php include 'footer.php'; ?>
 </body>
 
 </html>
