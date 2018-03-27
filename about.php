@@ -1,4 +1,5 @@
-<?php require_once ('header-about.php'); ?>
+<?php require_once ('header-about.php');
+get_header('about');?>
 <link href = "css/about.css" rel = "stylesheet">
 
 <div class = "container-fluid back" id = "banner_main">
@@ -151,4 +152,5 @@
     </div>
 </div>
 
+<script src = "js/mobile-menu.js"></script>
 <?php require_once ('footer.php')?>
