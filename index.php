@@ -1,4 +1,4 @@
-<?php include 'header-home.php';
+<?php include 'header-dg.php';
 get_header("front-page"); ?>
 
 

@@ -1,9 +1,7 @@
-<?php include 'header.php';
-get_header("front-page"); ?>
-
+<?php include 'header-dg.php';
+get_header("blog"); ?>
 </div>
 <section class="section-blog">
-    <div class="test"></div>
     <div class="container">
         <div class="row">
             <div class="col-md-12">

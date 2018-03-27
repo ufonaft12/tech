@@ -1,5 +1,5 @@
-<?php include 'header.php';
-get_header("front-page"); ?>
+<?php include 'header-dg.php';
+get_header("projects2"); //Здесь нужно поставить projects, но оно ставит какой-то непонятный бекграунд, спасибо разработчики ?>
 
 </div>
 <section class="container breadcrumbs-box">

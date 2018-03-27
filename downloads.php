@@ -1,5 +1,5 @@
-<?php include 'header.php';
-get_header("front-page"); ?>
+<?php include 'header-dg.php';
+get_header("downloads"); ?>
 </div>
 
 <section class="section-download">
