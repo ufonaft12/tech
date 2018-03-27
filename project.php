@@ -1,5 +1,5 @@
-<?php include 'header.php';
-get_header("front-page"); ?>
+<?php include 'header-dg.php';
+get_header('projecs');?>
 
 </div>
 <section class="banner container-fluid">
