@@ -1,5 +1,4 @@
-<?php require_once ('header-about.php'); ?>
-<link href = "css/about.css" rel = "stylesheet">
+<?php require_once ('header-dg.php'); ?>
 
 </div>
 

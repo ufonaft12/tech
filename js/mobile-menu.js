@@ -1,10 +1,6 @@
-var opener = document.getElementById('mobile-opener');
-var menu = document.getElementById('mobile-menu');
-var anim = document.getElementById('anim');
 var topline = document.getElementById('topline');
-var ham = document.getElementById('mobile-hamburger');
 var desc = document.getElementById('desctop-opener');
-var navigation = document.getElementById('navigation');
+var navigation = document.getElementById('menu');
 var headerLogo = document.getElementById('header-logo');
 var descOp = document.getElementById('desc-op');
 
@@ -18,28 +14,14 @@ desc.addEventListener('click', function(){
     }
 });
 
-opener.addEventListener('click', function () {
-
-    if (anim.classList.contains('fa-bars')){
-        anim.classList.remove('fa-bars');
-        anim.classList.add('fa-times');
-        anim.src = "img/close-light.png";
-    } else {
-        anim.classList.add('fa-bars');
-        anim.classList.remove('fa-times');
-        anim.src = "img/hamburger-light.png";
-    }
-
-
-    if (menu.classList.contains('open')){
-        menu.classList.remove('open');
-    } else {
-        menu.classList.add('open');
-    }
+jQuery('document').ready(function($){
+   $('#mob-op').on('click', function(){
+       $('#menu').toggleClass('mobile-open');
+   });
 });
 
 var first = true;
-var nav = document.getElementById('navigation');
+var nav = document.getElementById('menu');
 window.onscroll = function(){
     var top = (window.pageYOffset || document.scrollTop)  - (document.clientTop || 0);
     if (top > 50){
@@ -49,7 +31,6 @@ window.onscroll = function(){
             first = false;
         }
         topline.classList.add('background');
-        ham.classList.add('background');
         headerLogo.classList.add('open');
         desc.classList.add('open');
         nav.classList.add('opacity');
@@ -57,7 +38,6 @@ window.onscroll = function(){
     } else {
         nav.classList.remove('background');
         topline.classList.remove('background');
-        ham.classList.remove('background');
         headerLogo.classList.remove('open');
         desc.classList.remove('open');
         nav.classList.remove('opacity');
