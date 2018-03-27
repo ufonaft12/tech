@@ -2,6 +2,7 @@ body{
     text-align: right !important;
     direction: rtl !important;
     overflow-x: hidden;
+    font-weight: 400;
 }
 
 html{
@@ -36,6 +37,20 @@ html{
     justify-content: flex-end;
 }
 
+.heading-right{
+    font-size: 19px;
+}
+
+.heading-left img{
+    margin-left: 10px;
+}
+
+.sidebar-item.wh{
+    background: #f7f7f7;
+    color: black;
+    margin-bottom: 16px;
+}
+
 .sidebar-item span{
     padding: 0 20px;
     font-size: 18px;
@@ -46,12 +61,118 @@ html{
     padding: 0 20px;
 }
 
+.sidebar-item.wh img{
+    border-left: 1px solid #e7e7e7;
+}
+
 .myproject-page-heading input{
     width: 200px;
     background: transparent;
     border: none;
     border-bottom: 1px solid #d7d7d7;
     margin-right: 20px;
+}
+
+.ezor-item-row{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.ezor-item label{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.ezor-item label.req{
+    position: relative;
+    padding-right: 10px;
+}
+
+.ezor-item label.req:before{
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    right: -5px;
+    content: '*';
+    color: #44bbfe;
+}
+
+.ezor-item{
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px;
+    flex: 1;
+}
+
+.ezor-item.long{
+    flex: 2;
+}
+
+.ezor-item input{
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #dfe1e6;
+    color: black;
+    font-size: 13px;
+}
+
+.ezor-item:first-child{
+    padding-right: 0;
+}
+
+.ezor-item:last-child{
+    padding-left: 0;
+}
+
+.ezor-item.small{
+    flex: 0.244;
+    position: relative;
+}
+
+.ezor-item input::placeholder{
+    color: black;
+    font-size: 13px;
+}
+
+.myproject-page-heading.ezor{
+    padding: 12px 20px !important;
+}
+
+.ezor-item .input-button{
+    padding: 9px 20px;
+    background: #00a2fd;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.ezor-item-row.buttons{
+    margin-top: 70px;
+}
+
+.ezor-item-button{
+    padding: 18px 40px;
+    border: 1px solid #00a2fd;
+    background: white;
+    margin-left: 20px;
+    color: #00a2fd;
+    display: flex;
+    align-items: center;
+}
+
+.ezor-item-button img{
+    margin-right: 15px;
+}
+
+.ezor-item-button.active{
+    background: #00a2fd;
+    color: white;
+    padding: 18px 27px;
 }
 
 .myproject-item-icons{
@@ -361,6 +482,12 @@ html{
     width: 5em;
 }
 
+.delete,
+.logout,
+.change-pass{
+    cursor: pointer;
+}
+
 
 
 @media screen and (max-width: 1600px){
@@ -485,5 +612,22 @@ html{
 
     .myproject-page-heading input{
         width: 8em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .ezor-item{
+        width: 100%;
+        padding: 0;
+        margin-top: 10px;
+    }
+    
+    .ezor-item-row{
+        margin: 0;
+        flex-direction: column;
+    }
+    
+    .ezor-item-row.buttons{
+        flex-direction: row;
     }
 }
