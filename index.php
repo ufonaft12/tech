@@ -1,5 +1,7 @@
 <?php include 'header-home.php';
 get_header("front-page"); ?>
+
+
 <section class="container-fluid">
 	<div class="row">
 		<div class="col-md-3"><img src="../img/home-slide1.png" alt=""></div>
@@ -8,6 +10,7 @@ get_header("front-page"); ?>
 		<div class="col-md-3"><img src="../img/home-slide4.png" alt=""></div>
 	</div>
 </section>
+
 <section class="history">
 	<div class="row">
 		<h2>הסיפור שלנו</h2>
@@ -95,7 +98,6 @@ get_header("front-page"); ?>
 	</div>
 </section>
 
-
 <section class="contacts">
 	<div class="row">
 		<div class="col-md-6">2</div>
@@ -105,7 +107,6 @@ get_header("front-page"); ?>
 		</div>
 	</div>
 </section>
-
 
 
 <?php include 'footer.php'; ?>

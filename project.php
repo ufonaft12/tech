@@ -1,6 +1,7 @@
 <?php include 'header.php';
 get_header("front-page"); ?>
 
+</div>
 <section class="banner container-fluid">
 		<div class="row">
 			<div class="col-md-12" style="padding: 0;">
@@ -25,21 +26,17 @@ get_header("front-page"); ?>
 		</div>
 	</section>
 
-
-			<div class="breadcrumbs"  style="position:absolute;top: 120px;color: #fff;z-index: 1; right:160px;">
-				<span itemprop="itemListElement">
-					<a href="" itemprop="item" class="home" style="color:#fff;">
-						<span itemprop="name" style="color:#fff;">בית</span>
-					</a>
-				</span> 
-				<span class="sep" style="color:#fff;">/</span>
-				<span class="current" style="color:#fff;">פרויקטים</span>
-				<span class="sep" style="color:#fff;">/</span>
-				<span class="current" style="color:#fff;">פרוייקט וילה מארה</span>
-			</div>	
-
-
-
+<div class="breadcrumbs"  style="position:absolute;top: 120px;color: #fff;z-index: 1; right:160px;">
+        <span itemprop="itemListElement">
+            <a href="" itemprop="item" class="home" style="color:#fff;">
+                <span itemprop="name" style="color:#fff;">בית</span>
+            </a>
+        </span>
+        <span class="sep" style="color:#fff;">/</span>
+        <span class="current" style="color:#fff;">פרויקטים</span>
+        <span class="sep" style="color:#fff;">/</span>
+        <span class="current" style="color:#fff;">פרוייקט וילה מארה</span>
+    </div>
 
 <section class="post container">
 	<article>
@@ -139,5 +136,7 @@ get_header("front-page"); ?>
 	</article>
 </section>
 
-
 <?php include 'footer.php'; ?>
+</body>
+
+</html>

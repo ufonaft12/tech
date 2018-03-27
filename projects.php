@@ -1,6 +1,7 @@
 <?php include 'header.php';
 get_header("front-page"); ?>
 
+</div>
 <section class="container breadcrumbs-box">
 	<div class="row">
 		<div class="col-md-12">
@@ -193,6 +194,8 @@ get_header("front-page"); ?>
 	</div>
 </section>
 
-
-
 <?php include 'footer.php'; ?>
+
+</body>
+
+</html>
