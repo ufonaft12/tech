@@ -201,17 +201,17 @@ header .col-menu ul li ul li a {
 	padding: 5px;
 }
 
-header .mobile-menu-btn {
+/*header .mobile-menu-btn {
 	display: none;
-}
+}*/
 /* - exit menu */
 
 header .col-info {
 	
 }
-header #menu {
+/*header #menu {
 	margin-top: 30px;
-}
+}*/
 
 @media screen and (max-width: 768px) {
 	header {
@@ -227,7 +227,7 @@ header #menu {
 		
 	}
 	
-	header .mobile-menu-btn {
+	/* DG-HEADER-FIX header .mobile-menu-btn {
 		background-color: #1997ed;
 		display: block;
 		float: right;
@@ -238,7 +238,7 @@ header #menu {
 		width: 66px;
 		position: relative;
 		right: -15px;
-	}
+	}*/
 
 	header .mobile-menu-btn span {
 		background-color: #fff;
@@ -290,7 +290,7 @@ header #menu {
 		overflow: hidden;
 	}
 
-	header #menu {
+/*	header #menu {
 		position: fixed;
 		height: calc(100% - 66px);
 		width: 62.5%;
@@ -300,12 +300,12 @@ header #menu {
 		padding: 0;
 		transition: 0.7s;
 		margin-right: -150%;
-	}
+	}*/
 
-	header #menu.active {
+	/*header #menu.active {
 		margin-right: -10px;
 		transition: 0.7s;
-	}
+	}*/
 
 	header .menu-header {
 		width: 100%;
