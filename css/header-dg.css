@@ -180,7 +180,6 @@ body{
     }
     
     .menu-item:last-child{
-        border-right: 1px solid red;
         padding-right: 23px;
         margin-right: 22px;
     }
