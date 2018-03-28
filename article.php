@@ -12,17 +12,17 @@ get_header("article"); ?>
 
 <div class="section-article breadcrumbs">
     <span itemprop="itemListElement">
-        <a href="" itemprop="item" class="home" style="color:#fff;">
-            <span itemprop="name" style="color:#fff;">בית</span>
+        <a href="" itemprop="item" class="home">
+            <span itemprop="name">בית</span>
         </a>
     </span>
-    <span class="sep" style="color:#fff;">/</span>
-    <span class="current" style="color:#fff;">בלוג</span>
-    <span class="sep" style="color:#fff;">/</span>
+    <span class="sep">/</span>
+    <span class="current">בלוג</span>
+    <span class="sep">/</span>
     <span class="current" style="color:#00a2fd;">כותרת ראשית של מאמר לורם יפסום</span>
 </div>
 
-<section class="section-article container">
+<section class="section-article post container">
 	<article>
 		<h1>כותרת ראשית של מאמר לורם יפסום</h1>
 		<div class="row share">
@@ -129,6 +129,5 @@ get_header("article"); ?>
         </div>
     </div>
 </section>
-
 
 <?php include 'footer.php'; ?>

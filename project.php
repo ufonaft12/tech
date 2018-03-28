@@ -32,7 +32,7 @@ get_header('projecs');?>
     <span class="current">פרוייקט וילה מארה</span>
 </div>
 
-<section class=" container">
+<section class="section-project post container">
 	<article>
 		<h1>פרוייקט וילה מארה</h1>
 		<div class="row share">

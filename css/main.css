@@ -424,7 +424,7 @@ header .col-info {
 	min-height: 435px;
 }
 
-.section-project, .section-article {
+section.section-project, section.section-article {
 	margin-bottom: 60px;
 }
 
@@ -435,13 +435,12 @@ header .col-info {
 	width: 1040px;
 }
 .breadcrumbs{
-	margin: 12px 0 27px;
 	text-align: right;
 }
 
 .breadcrumbs {
 	position: absolute;
-	top: 120px;
+	top: 135px;
 	color: #fff;
 	z-index: 1;
 	right: 130px;
@@ -512,7 +511,7 @@ h4.article-title {
 	font-size: 15px;
 }
 .list-date {
-	float: left;
+	float: right;
 	list-style: none;
 	display: inline-block;
 	margin: 5px 0 0 0;
@@ -844,21 +843,45 @@ h4.article-title {
   color: #000;
 }
 
+@media (max-width: 1200px) {
+	.post {
+		width: 100%;
+	}
+}
+
 @media (max-width: 768px) {
+	.gallery-slider .gallery-slider-image, .section-article_bg-image {
+		min-height: 250px;
+	}
+
 	.breadcrumbs {
-		top: 42px;
+		top: 55px;
 		right: 60px;
-		color: #080c17;
+		color: #fff;
 	}
 
 	.breadcrumbs a {
-		color: #080c17;
+		color: #fff;
 	}
 }
 
 @media (max-width: 480px) {
-	.section-project, .section-article {
+	.breadcrumbs {
+		right: 20px;
+		top: 310px;
+		color: #212529;
+	}
+
+	.breadcrumbs a {
+		color: #212529;
+	}
+
+	section.section-project, section.section-article {
 		margin-bottom: 40px;
+	}
+
+	.section-project article h1, .section-article article h1 {
+		font-size: 30px;
 	}
 
 	.list-date, .share-list {
