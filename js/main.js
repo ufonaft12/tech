@@ -32,46 +32,44 @@ jQuery(document).ready(function($){
 		});
 	}
 
-	    $('.gallery-slider').owlCarousel({
-            loop:true,
-            nav:true,
-            navText:['<span class="lnr lnr-chevron-left"></span>','<span class="lnr lnr-chevron-right"></span>'],
-            dots:false,
-            margin: 15,
-            responsive:{
-                0:{
-                    items:1,           
-                },
-                600:{
-                    items:1,
-                },
-                900:{
-                    items:1,
-                }
-            }
-    });
-
-        $(".four-slider").owlCarousel({
+    $('.gallery-slider').owlCarousel({
         loop:true,
-        margin:10,
-        responsive:true,
-        navText : ["עוד כתבות בנושא","|"],
-        rtl:true,
+        nav:true,
+        navText:['<span class="lnr lnr-chevron-left"></span>','<span class="lnr lnr-chevron-right"></span>'],
+        dots:false,
+        margin: 15,
         responsive:{
             0:{
                 items:1,
-                nav:true
             },
             600:{
                 items:1,
-                nav:false
             },
-            1000:{
-                items:4,
-                nav:true,
-                loop:true
+            900:{
+                items:1,
             }
         }
-    });	    
+    });
+
+    $(".four-slider").owlCarousel({
+        loop: true,
+        margin: 10,
+        responsive: true,
+        nav: true,
+        dots: false,
+        navText: ["עוד כתבות בנושא","|"],
+        rtl: true,
+        responsive: {
+            0: {
+                items:1
+            },
+            600: {
+                items:2
+            },
+            1000: {
+                items:3
+            }
+        }
+    });
 
 });

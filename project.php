@@ -3,51 +3,46 @@ get_header('projecs');?>
 
 </div>
 <section class="banner container-fluid">
-		<div class="row">
-			<div class="col-md-12" style="padding: 0;">
-				<div class="gallery-slider owl-carousel">
-					
-					<!-- slide 1-->
-					<div>
-						<img src="img/project-slider.png" alt="">
-					</div>
-					
-					<!-- slide 2-->
-					<div>
-						<img src="img/project-slider.png" alt="">
-					</div>
-					
-					<!-- slide 3-->
-					<div>
-						<img src="img/project-slider.png" alt="">
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <div class="row">
+        <div class="col-md-12" style="padding: 0;">
+            <div class="gallery-slider owl-carousel">
 
-<div class="breadcrumbs"  style="position:absolute;top: 120px;color: #fff;z-index: 1; right:160px;">
-        <span itemprop="itemListElement">
-            <a href="" itemprop="item" class="home" style="color:#fff;">
-                <span itemprop="name" style="color:#fff;">בית</span>
-            </a>
-        </span>
-        <span class="sep" style="color:#fff;">/</span>
-        <span class="current" style="color:#fff;">פרויקטים</span>
-        <span class="sep" style="color:#fff;">/</span>
-        <span class="current" style="color:#fff;">פרוייקט וילה מארה</span>
+                <!-- slide 1-->
+                <div class="gallery-slider-image" style="background-image: url('img/project-slider.png')"></div>
+
+                <!-- slide 2-->
+                <div class="gallery-slider-image" style="background-image: url('img/project-slider.png')"></div>
+
+                <!-- slide 3-->
+                <div class="gallery-slider-image" style="background-image: url('img/project-slider.png')"></div>
+            </div>
+        </div>
     </div>
+</section>
 
-<section class="post container">
+<div class="breadcrumbs">
+    <span itemprop="itemListElement">
+        <a href="" itemprop="item" class="home">
+            <span itemprop="name">בית</span>
+        </a>
+    </span>
+    <span class="sep">/</span>
+    <span class="current">פרויקטים</span>
+    <span class="sep">/</span>
+    <span class="current">פרוייקט וילה מארה</span>
+</div>
+
+<section class=" container">
 	<article>
 		<h1>פרוייקט וילה מארה</h1>
 		<div class="row share">
 			<div class="col-md-6">
-						<ul class="list-date">
-							<li><span class="lnr lnr-map-marker"></span> ראשון לציון</li>
-							<li><span class="lnr lnr-calendar-full"></span> 27.02.18</li>
-						</ul>						
+                <ul class="list-date">
+                    <li><span class="lnr lnr-map-marker"></span> ראשון לציון</li>
+                    <li><span class="lnr lnr-calendar-full"></span> 27.02.18</li>
+                </ul>
 			</div>
+
 			<div class="col-md-6">
 				<ul class="share-list">
 					<li><a href="#"><img src="../img/icon-fb.png" alt=""></a></li>
@@ -125,14 +120,15 @@ get_header('projecs');?>
 			</tr>						
 		</table>
 
-		<div class="row">
-			<div class="col-md-6" style="text-align: right">
-				<a href="#" class="post-prev">פרויקט הבא <span class="lnr lnr-chevron-right"></span></a>
-			</div>
-			<div class="col-md-6" style="text-align: left">
-				<a href="#" class="post-next"><span class="lnr lnr-chevron-left"></span> פרוייקט קודם</a>
-			</div>
-		</div>
+        <div class="btn-wrap">
+            <div class="btn-prev-wrap">
+                <a href="#" class="post-prev">פרויקט הבא</a>
+            </div>
+
+            <div class="btn-next-wrap">
+                <a href="#" class="post-next">פרוייקט קודם</a>
+            </div>
+        </div>
 	</article>
 </section>
 
