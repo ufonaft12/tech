@@ -495,7 +495,7 @@ html{
         flex: 3;
     }
 }
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1170px){
     .container-myproject{
         flex-direction: column-reverse;
     }
@@ -629,5 +629,283 @@ html{
     
     .ezor-item-row.buttons{
         flex-direction: row;
+    }
+}
+
+.mplh{
+    background: #f7f7f7;
+    padding: 40px;
+}
+
+.myProject-list-heading{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.myProject-list-heading svg{
+    height: 15px;
+}
+
+.myProject-list-heading svg path,
+.myProject-list-heading svg polygon{
+    fill: #aaaaaa;
+}
+
+.myProject-list-heading .title{
+    color: black;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.myProject-list-heading .title svg{
+    padding-right: 8px;
+}
+
+.myProject-list-heading-button{
+    background: #00a2fd;
+    padding: 15px 40px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.input-title{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.myProject-list-heading-title{
+    flex: 1;
+}
+
+.input-title-text{
+    color: #00a2fd;
+    padding-left: 8px;
+}
+
+.input-title-right-text{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left: 30px;
+    color: #4d4e4e;
+}
+
+.input-title-right-text .blue-text-mp{
+    color: #00a2fd;
+}
+
+.input-title input{
+    border: none;
+    background: none;
+    border-bottom: 1px solid #aaaaaa;
+    width: 40%;
+    margin-left: auto;
+}
+
+.input-title svg{
+    padding-right: 8px;
+}
+
+.input-title{
+    align-items: center;
+}
+
+.myproject-page-heading.mpl{
+    justify-content: initial;
+}
+
+.myproject-page-heading.mpl span{
+    margin-left: 60px;
+}
+
+.sidebar-item.wh.active{
+    background: #00a2fd;
+    color: white;
+}
+
+.sidebar-item.wh{
+    height: 60px;
+}
+
+.sidebar-item.wh img{
+    width: 60px;
+}
+.sidebar-item.wh.active img{
+     width: 60px;
+    object-fit: contain;
+    height: 21px;
+    border-color: #80d1fe;
+}
+
+.myproject-list-item .myproject-item-icon .plus,
+.myproject-list-item .myproject-item-icon .minus{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #f7f7f7;
+}
+
+.myproject-list-item .myproject-item-icon input{
+    width: 35px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: white;
+    border: 1px solid lightgray;
+}
+
+.myproject-list-item{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    padding-left: 20px;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.myproject-list-item-left{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.myproject-list-item .myproject-item-icon{
+    display: flex;
+    flex-direction: row;
+}
+
+.myproject-list-item-right{
+    display: flex;
+    flex-direction: row;
+}
+
+.myproject-list-image{
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myproject-list-text-title{
+    color: black;
+    font-size: 22px;
+}
+
+.myproject-list-text-desc{
+    color: black;
+    font-size: 14px;
+}
+
+.myproject-list-additional{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.myproject-list-additional-desc span{
+    color: #5c6065;
+    font-size: 12px;
+    border-left: 1px solid #9da0a3;
+    padding: 0 5px;
+}
+
+.myproject-list-additional-desc span:first-child{
+    border-left: none;
+}
+
+.myproject-list-additional .myproject-list-left{
+    color: black;
+    font-size: 12px;
+}
+
+.myproject-list-additional .myproject-list-left span{
+    color: #5c6065;
+}
+
+.myproject-list-left{
+    margin-right: 10px;
+}
+
+.modal-input.frow{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plus-minus{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.plus-minus .plus,
+.plus-minus .minus{
+    width: 42px;
+    line-height: 42px;
+    height: 42px;
+    background: #f7f7f7;
+}
+
+.plus-minus input{
+    width: 47px;
+    height: 42px;
+    line-height: 42px;
+    border: 1px solid lightgray;
+    background: white;
+    text-align: center;
+}
+
+.modal-dg.bb .modal-label{
+    font-weight: bold;
+}
+
+.modal-dg.bb .mr-20{
+    margin-right: 20px;
+}
+
+.modal-descript{
+    margin-top: 15px;
+}
+
+.modal-desc-text{
+    color: rgba(0, 0, 1, 0.502);
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1600px){
+    .myproj-li .container-myproject{
+        flex-direction: column-reverse;
+    }
+    
+     .myproj-li .myproject-page{
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 1000px){
+     .myproj-li .myproject-list-item{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    
+     .myproj-li .myproject-list-item-left{
+        margin-top: 15px;
+    }
+    
+    .myproject-list-additional{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 500px){
+     .myproj-li .myproject-page-heading.mpl{
+        flex-wrap: wrap;
     }
 }
