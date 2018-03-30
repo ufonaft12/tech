@@ -45,5 +45,13 @@ jQuery('document').ready(function($){
        $('#delete').css({'display': 'flex'}).fadeIn(300);
     });
 
+     $('.add-custom').on('click', function(){
+        $('#add-custom').css({'display':'flex'}).fadeIn('300');
+     });
+
+     $('.edit-product').on('click', function(){
+        $('#edit-product').css({'display': 'flex'}).fadeIn('300');
+     });
+
 });
 
